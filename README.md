@@ -80,7 +80,7 @@ class KtConfigurator : GradleConfiguratorBase() {
 Here we can see that the algorithm has detected where the sent code came from.
 
 But if we combine _GoCourseBuilder_ and _GoCourseProjectGenerator_ the result would be **OK!**. And that is the main
-disadvantage of simple-way approach. 
+disadvantage of simple-way approach.
 ![img.png](img/combination.png)
 
 ## About Solution
@@ -102,4 +102,6 @@ huge size file into memory at once.
   to implement. And in general look into approaches used in NLP with adaptation to our code-based task.
 
 In general, I don't really like the way Kotlin and Python code interact with each other at the moment. It is also
-possible to increase code cleanliness by moving the required variables into the environment. 
+possible to increase code cleanliness by moving the required variables into the environment. Of course the best way
+would be to separate the database and server into different containers, wrap them with docker compose, and use the latest
+versions of dependencies.  
