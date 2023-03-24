@@ -30,7 +30,7 @@ To simplify, it was decided to use the bare body of the request rather than json
 
 - You can make a request using curl.
 
-```
+```sh
 curl --location 'http://localhost:8080/check' \
 --header 'Content-Type: text/plain' \
 --data 'package com.jetbrains.edu.kotlin
